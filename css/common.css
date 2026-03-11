@@ -1,0 +1,729 @@
+@charset "utf-8";
+
+/*基本設定
+----------------------------------------------------*/
+
+body {
+		margin:0;
+		padding:0;
+		background:url(https://www.progrise.jp/images/common/bg.gif) left top repeat-x #fff;
+		font-family:"メイリオ", "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+		color:#222;
+		line-height:1.8em;
+		font-size:14px;
+		text-align:center;
+		
+}
+
+html {   
+		overflow-y:scroll;   
+}  
+
+
+a {
+		color:#004183;
+		text-decoration:underline;
+}
+
+a:hover {
+		color:#AE1F1F;
+		text-decoration:none;
+}
+
+img {
+		border:0;
+		vertical-align: bottom;
+}
+
+h1,h2,h3,h4,h5,p {
+		margin:0;
+		padding:0;
+		font-weight:normal;
+}
+
+ul,li {
+		margin:0;
+		padding:0;
+		list-style-type:none;
+}
+
+table {
+		width:100%;
+		border:0;
+}
+
+th,td {
+		font-size:14px;
+}
+
+
+#wrap {
+		margin:0 auto 200px;
+		padding:0;
+		width:100%;
+		text-align:left;
+}
+
+.clear {
+		clear:both;
+}
+
+.fix:after {
+  content: "."; 
+  display:block; 
+  clear:both;
+  height:0;
+  visibility:hidden;
+}
+
+.fix {
+  min-height:1px;
+}
+
+* html .fix {
+  height:1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+.ohz {
+		overflow: hidden;
+		_zoom: 1;
+}
+
+
+p.mark {
+		display:none;
+}
+
+span.red {
+		color:#c00;
+}
+
+.img {
+		float:left;
+		margin:0 15px 0 0;
+}
+
+.img02 {
+		float:right;
+		margin:0 0 0 15px;
+}
+
+.img03 {
+		float:left;
+		margin:0 25px 0 0;
+}
+
+
+.tel {
+		font-size:28px;
+		font-weight:bold;
+		font-family:Century Gothic,Arial, Helvetica, sans-serif;
+		color:#a00;
+}
+
+
+p.del {
+		width:100px;
+		height:50px;
+		text-align:center;
+		margin:10px 0 0 0;
+}
+
+p.del a {
+		display:block;
+		background:#419444;
+		color:#fff;
+		text-decoration:none;
+		border:solid 1px #419444;
+}
+
+p.del a:hover {
+		display:block;
+		background:#fff;
+		color:#419444;
+		text-decoration:underline;
+		border:solid 1px #419444;
+}
+
+.no {
+		background:none!important;
+		border:none!important;
+		margin:0!important;
+		padding:0!important;
+}
+
+
+
+/*section p
+----------------------------------------------------*/
+
+.section {
+		margin:0 0 30px 0;
+		width:100%;
+}
+
+
+.section h2 {
+		margin:0 0 10px 0;
+}
+
+.inner {
+		width:100%;
+}
+
+.btm5 {
+		margin-bottom:5px;
+}
+
+.btm10 {
+		margin-bottom:10px;
+}
+
+.btm15 {
+		margin-bottom:15px;
+}
+
+.btm20 {
+		margin-bottom:20px;
+}
+
+.btm25 {
+		margin-bottom:25px;
+}
+
+.btm30 {
+		margin-bottom:30px;
+}
+
+.btm40 {
+		margin-bottom:40px;
+}
+
+
+.top5 {
+		margin-top:5px;
+}
+
+.top10 {
+		margin-top:10px;
+}
+
+.top20 {
+		margin-top:20px;
+}
+
+.f10 {
+		font-size:10px!important;
+}
+
+.f14 {
+		font-size:14px;
+}
+
+p.l11 {
+		line-height:1.1;
+}
+
+p.l13 {
+		line-height:1.3;
+}
+
+.m0 {
+		margin:0!important;
+}
+
+.tar {
+		text-align:right;
+}
+
+.tac {
+		text-align:center;
+}
+
+.f-l {
+		float:left;
+}
+
+.f-r {
+		float:right;
+}
+
+.hover a:hover{
+    opacity: 0.7; 
+    filter: alpha(opacity=70); 
+    -moz-opacity: 0.7;
+}
+
+.red {
+	color: #ff0000;
+}
+
+
+
+/*ヘッダー
+----------------------------------------------------*/
+
+#header {
+		width:100%;
+		height:110px;
+		position:relative;
+		margin: 0 0 20px 0;
+}
+
+#h1b {
+		position:absolute;
+		font-size:10px;
+		top:5px;
+		left:0px;
+		color:#fff;
+		width:100%;
+		background: url(../images/top/bg_image.jpg) 0 0 repeat-x;
+		height: 25px;
+}
+
+#h1b h1 {
+		font-size:12px;
+		width: 960px;
+		margin: 0 auto;
+}
+
+.heaer_menu_group {
+	margin: 0 auto;
+    position: relative;
+    top: 45px;
+    width: 960px;
+}
+
+p.h-tel {
+    position: absolute;
+    text-align: right;
+    top: 10px;
+    left: 295px;
+}
+
+p.logo {
+		position:absolute;
+		top:0;
+		left:0px;
+}
+
+p.h-contact {
+		position:absolute;
+		top: 18px;
+		right:-1px;
+}
+
+ul.announce {
+	position: absolute;
+	right: 0;
+	top: -10px;
+	font-size:12px;
+}
+
+ul.announce li {
+	display: inline-block;
+	background: url(../images/common/icon_decimal_arrow.png) no-repeat 0 6px;
+	padding: 0 0 0 15px;
+}
+
+ul.announce li + li {
+	margin: 0 0 0 20px;
+}
+
+ul.announce li a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*ナビ
+----------------------------------------------------*/
+
+#navi {
+		width: 100%;
+		height:50px;
+		margin:0;
+		padding:0;
+		background: url(../images/common/fig_menu_btn_bg.jpg) 0 0 repeat-x;
+}
+
+#navi li {
+		margin:0;
+		padding:0;
+		float:left;
+}
+
+#navi_area {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+/*コンテンツ
+----------------------------------------------------*/
+#cont {
+		width: 960px;
+		margin:25px auto 0;
+}
+
+#main-image {
+	background: url(../images/top/bg_main_key.jpg) 0 0 no-repeat;
+	width: 100%;
+	height: 320px;
+}
+
+#main-image #president {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*サイド
+----------------------------------------------------*/
+
+#side {
+		width:230px;
+		float:left;
+}
+
+.banner_area {
+	margin: 0 0 20px 0;
+}
+
+.banner_area img {
+	margin: 0 0 15px 0;
+}
+
+.contact_banner {
+	background: url(../images/common/fig_banner_contact.png) 0 0 no-repeat;
+	width: 230px;
+	height: 52px;
+    padding: 125px 0 0;
+    text-align: center;
+	margin: 0 0 15px 0;
+}
+
+.menu_bar {
+	background: url(../images/common/bg_menu.jpg) 0 0 no-repeat;
+	width: 230px;
+	color: #fff;
+	font-size: 15px;
+	padding:5px 0 5px 0;
+}
+
+.menu_bar p {
+		padding:0 0 0 20px;
+}
+
+ul.side_navi li {
+	padding: 10px 0 10px 5px;
+	border-bottom: 1px solid #ccd7e6;
+}
+
+ul.side_navi {
+	margin: 0 0 35px;
+}
+
+ul.side_navi li p {
+	float: left;
+	font-weight: bold;
+}
+
+ul.side_navi li span {
+	float: right;
+	background: url(../images/common/icon_arrow.png) 13px 3px no-repeat;
+	padding: 18px 0 0 0;
+	overflow: hidden;
+	height: 0;
+}
+
+ul.side_navi li:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.side_navi a {
+	color: #000;
+}
+
+.side_navi a:hover {
+	color: #004183;
+}
+
+.com_address {
+		font-size:12px;
+		padding:10px 10px 15px 10px;
+		line-height:1.6em;
+		border:dotted 1px #ccc;
+		background:url(../images/common/pbg.jpg) right bottom no-repeat;
+		text-shadow: 1px 1px 0px #fff;
+
+}
+
+.com_address2 {
+		border-bottom:solid 1px #fff;
+		padding:0 0 5px 0;
+		margin:0 20px 10px 0;
+}
+
+/*メイン
+----------------------------------------------------*/
+
+#main {
+		width:690px;
+		float:right;
+}
+
+ul.check li {
+		background:url(https://www.progrise.jp/images/common/check.gif) 0 0 no-repeat;
+		padding:0 0 0 20px;
+		margin:0 0 5px 0;
+		font-weight:bold;
+}
+
+.waku {
+		padding:5px;
+		background:#fff;
+		border:solid 1px #dcdcdc;
+}
+
+.service_area {
+	background: url(../images/common/dot.png) 0 0 repeat;
+	width:680px;
+	height: auto;
+	padding: 20px 0 15px 10px;
+	font-size:12px;
+}
+
+
+
+.service_area li.s-box {
+	background-color: #fff;
+	float: left;
+	margin: 0 10px 0 0;
+	width:216px;
+	text-align:center;
+	padding:0 0 5px 0;
+}
+
+
+.service_area li img {
+	margin: 3px 0 10px 0;
+}
+
+.sevice_list {
+	text-align: left;
+	margin:0 0 0 3px;
+}
+
+.sevice_list li {
+	float: none;
+	margin: 0 !important;
+}
+
+.sevice_list li:before {
+	content: "-";
+	margin: 0 3px 0 0;
+}
+
+.hl_2 {
+	background: url(../images/common/bg_headline.jpg) 0 0 no-repeat;
+	width: 690px;
+	height: 48px;
+	font-weight: bold;
+	text-align: center;
+	padding: 25px 0 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 26px;
+}
+
+
+.president_pic {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.greeting {
+}
+
+.greeting_txt {
+	border-top: 1px dotted #000;
+	padding: 10px 0 0 0;
+	font-size: 14px;
+}
+
+.btn_read {
+	position: relative;
+}
+
+.btn_read_more {
+
+	text-align: center;
+	font-size: 13px;
+		width:140px;
+}
+
+.btn_read_more a {
+		display:block;
+		color:#fff;
+	padding: 10px;
+	background: #004183;
+
+		text-align:center;
+}
+
+#js-read_txt {
+	display: none;
+    overflow: hidden;
+    height: 0;
+}
+
+.tpmm {
+	color:#004183;
+	font-size:16px;
+	font-weight:bold;
+}
+
+/*フッター
+----------------------------------------------------*/
+
+#footer-wrap {
+		width:100%;
+		text-align:center;
+		background:url(../images/common/dot.png) 0 0  repeat;
+		padding:0 0 20px 0;
+		margin:60px 0 0 0;
+		position: relative;
+}
+
+#footer {
+		position: relative;
+		margin:0 auto;
+		padding: 20px 0 0 0;
+		width:960px;
+		text-align:left;
+}
+
+#footer_president {
+	position: absolute;
+	top: -187px;
+}
+
+#footer_president a {
+	position: relative;
+	top: -52px;
+	left: 507px;
+}
+
+#footer a {
+		color:#fff;
+		text-decoration:none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#pagetop {
+		text-align:right;
+		margin:0 0 10px 0;
+}
+
+
+
+p.cr {
+		font-size:10px;
+		color:#fff;
+		clear:both;
+		text-align:right;
+		font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.footer-navi {
+		width:100%;
+}
+
+.footer-navi li {
+		float:left;
+		margin:0 25px 5px 0;
+		padding:0 0 0 10px;
+		background:url(../images/common/arrow.gif) 0 8px no-repeat;
+}
+
+.footer_com_area {
+	color: #fff;
+	float: left;
+	width: 560px;
+}
+
+.footer_com_area .com_address {
+	margin: 0 20px 15px 0;
+	border-bottom: 1px solid #fff;
+	background: none;
+	height: auto;
+	overflow: visible;
+	padding: 0 0 5px 0;
+}
+
+.menu_name:before {
+	content: "○";
+	margin: 0 5px 0 0;
+}
+
+.menu_area_a .menu_txt_area {
+	float: left;
+	margin:0 25px 0 0;
+}
+
+.footer_nav {
+		width:560px;
+		font-size:11px;
+}
+
+
+.footer_com_area .menu_area_a {
+	float: left;
+	width: 300px;
+}
+
+.footer_com_area .menu_area_b {
+	float: left;
+}
+
+#footer-wrap #map_area {
+	float: right;
+	margin:13px 0 0 0;
+}
+
+#footer-wrap #map_canvas {
+	width: 400px;
+	height: 220px;
+}
+
+#access_map_canvas {
+	width: 100%;
+	height: 500px;
+}
+
+.pagetop{
+	width:49px;
+	height:49px;
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	bottom: 300px;
+	right: 100px;
+	}
+
+.pagetop a{	
+	display: block;
+	width:49px;
+	height: 0;
+	padding-top:130px;
+	background:url(../images/common/pagetop.png) no-repeat;}

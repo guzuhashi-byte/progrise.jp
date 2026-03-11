@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+/*下層ページ
+----------------------------------------------------*/
+
+body {
+		background:url(https://www.progrise.jp/images/common/bg.gif) left top repeat-x #fff;
+		
+}
+
+#cont {
+		margin:5px auto 0;
+}
+
+
+
+h2.page-title {
+	background:url(../images/second/section_bar.jpg) 0 0 no-repeat;
+	padding:16px 0 10px 40px;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+	font-weight:bold;
+	margin: 0 0 20px 0;
+	color: #111;
+}
+
+h3.page-title {
+	background-image: url(../images/common/icon_title_border.png);
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+	background-color: #013d7b;
+	padding: 10px 10px 10px 20px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 0 20px 0;
+}
+
+h3.flow {
+	font-weight:bold;
+	font-size:16px;
+	border-bottom:dashed 1px #ccc;
+	margin:0 0 10px 0;
+}
+
+h3.flow span {
+	color: #fff;
+	background: #AB1D1D;
+	padding: 3px 5px;
+	margin: 0 10px 0 0;
+	font-family: Century Gothic,"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+	display: inline-block;
+	font-size: 24px;
+}
+
+.section_box {
+	background-color: #f6f6f6;
+	padding: 20px;
+	margin: 0 0 20px 0;
+}
+
+.section_box > p.decimal {
+	background: url(../images/second/decimal.png) no-repeat 0 3px;
+	border-bottom: 1px dotted #000;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 0 0 10px 20px;
+}
+
+#main-image {
+	background: url(../images/second/fig_sub_main.jpg) right 0 no-repeat;
+	width: 100%;
+	height:100px;
+}
+
+.title {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 28px;
+	padding-top: 28px;
+			text-shadow: 1px 1px 0px #fff;
+			text-align:center;
+}
+
+.title p {
+	/*border-left: 6px solid #004183;*/
+    font-weight: bold;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 15px;
+}
+
+.title p span {
+	color:#004183;
+    font-weight:normal;
+	font-size:16px;
+	font-style:italic;
+	font-family: Georgia, 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho ProN', 'MS P 明朝', 'MS PMincho', serif;
+}
+
+
+.discription {
+	font-size: 14px;
+}
+
+.txt_blue {
+	color: #005eae;
+}
+
+.img_right:after {
+	display: block;
+	height: 0;
+	content: ".";
+	clear: both;
+	visibility: hidden;
+}
+
+.img_right .txt {
+	display: block;
+}
+
+.img_right .image {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+
+.s-bb {
+		width:710px;
+		margin:0 -20px 0 0;
+}
+
+.stt {
+		width:323px;
+		float:left;
+		margin:0 20px 20px 0;
+		border:dotted 1px #004183;
+		padding:5px;
+		background:#F0F7FD;
+		line-height:1.4em;
+
+}
+
+.s-txt {
+		font-size:12px;
+		margin-top:5px;
+
+}
+
+h3.mpt {
+		margin:0 0 10px 0;
+		border:solid 1px #004183;
+		border-left:none;
+		border-right:none;
+		padding:5px 0;
+		color:#004183;
+		font-weight:bold;
+}
+
+/*パンくず
+----------------------------------------------------*/
+
+div.topicpath {
+	width: 960px;
+	margin: 10px auto 0;
+	font-size:12px;
+}
+
+ul.pan {
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+ul.pan li {
+    float: left;
+    margin: 0 7px 0 0;
+    width: auto;
+}
+
+ul.pan li a {
+    background:url(../images/common/arrow.gif) no-repeat right 5px;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+
+
+
+
+/*料金表
+----------------------------------------------------*/
+
+p.price {
+		margin:0 0 10px 0;
+		padding:10px 10px;
+		border-top:dashed 1px #ccc;
+		border-bottom:dashed 1px #ccc;
+		background:#F0F7FD;
+		font-size:20px;
+		font-family:Century Gothic,"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+		font-weight:bold;
+		color:#a00;
+		
+}
+
+p.price span {
+		font-size:12px;
+}
+
+p.limit {
+		border:dashed 1px #c00;
+		color:#c00;
+		margin:0 0 20px 0;
+		padding:10px;
+}
+
+/*プライバシーポリシー
+----------------------------------------------------*/
+
+.policy_area ol li {
+	list-style-type: decimal;
+	margin-bottom: 15px;
+}
+
+.policy_area ul li {
+	list-style-type: square;
+	margin-bottom: 15px;
+}
+
+.policy_area ol li ul,
+.policy_area ul li ol {
+	margin-left: 15px;
+}
+
+.policy_area ol li ul li,
+.policy_area ul li ol li {
+	list-style-type: square;
+	margin-bottom: 0;	
+}
+
+/*下層ページのテーブル
+----------------------------------------------------*/
+
+.nt {
+		background:#ddd;
+}
+
+.nt td {
+		background:#fff;
+		padding:5px;
+}
+
+.nt th {
+		background:url(https://www.progrise.jp/images/second/thbg.gif) 0 bottom repeat-x #fff;
+		padding:5px;
+		font-weight:normal;
+		text-align:center;
+}
+
+.info-t th {
+    background: #dce8fc none repeat scroll 0 0;
+    text-align: center;
+}
+
+.pri td {
+		text-align:center;
+}
+
+.pri th {
+		background:#f5f5f5;
+}
+
+/*よくある質問
+----------------------------------------------------*/
+
+.qa {
+		margin:0 0 45px 0;
+}
+
+.qa h3 {
+		background:url(../images/second/q.gif) 0 0 no-repeat;
+		padding:5px 0 10px 45px;
+		border-bottom:dashed 1px #999;
+		font-size:16px;
+		font-weight:bold;
+		margin:0 0 10px 0;
+}
+
+.qa p {
+		background:url(../images/second/a.gif) 0 0 no-repeat;
+		padding:5px 0 0 45px;
+}
+
+
+/*サイトマップ
+----------------------------------------------------*/
+
+.sitemap {
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.sitemap li {
+		padding:0 0 5px 10px;
+		margin:0 0 5px 0;
+		border-bottom:dashed 1px #ddd;
+		
+}
+
+.sitemap li.child {
+		margin:0 0 5px 40px;
+		border-bottom:dashed 1px #ddd;
+		font-size:12px;
+		
+}
+
+/*google地図
+----------------------------------------------------*/
+
+.map {
+		padding:9px;
+		background:#fff;
+		border:solid 1px #eee;
+		margin:0 0 10px 0;
+}
